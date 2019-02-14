@@ -5,7 +5,7 @@ class Product extends Component {
     const { data, total } = this.props;
     const { title, titleEm, products } = data;
     return (
-      <section className="product">
+      <section className="product clearfix">
         <h2>
           {title}
           {titleEm.map((emText, index) => (
@@ -14,7 +14,7 @@ class Product extends Component {
         </h2>
         <div className="product-content">
           {products.map((product, index) => (
-            <div class="item" key={index}>
+            <div className="item clearfix" key={index}>
               <h3>
                 <em>{product.month}</em>
                 个月{index === products.length - 1 && "以上"}

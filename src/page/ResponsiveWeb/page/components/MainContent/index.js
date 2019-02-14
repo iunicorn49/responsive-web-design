@@ -13,7 +13,7 @@ class MainContent extends Component {
     return (
       <div className="container">
         <Transaction />
-        <Ad />
+        {/* <Ad /> */}
         <Feature />
         <Notice />
         <Product total={true} data={product01} />

@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <nav className="footer">
-        <div className="footer-content">
+        <div className="footer-content clearfix">
           <p className="brand" />
           {data.map((ul, index) => (
             <ul key={index}>

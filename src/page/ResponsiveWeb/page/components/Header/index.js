@@ -23,6 +23,13 @@ class Header extends Component {
               src={logoImg}
             />
           </a>
+          <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">理财频道</a></li>
+            <li><a href="#">投资频道</a></li>
+            <li><a href="#">新手专区</a></li>
+            <li><a href="#">安全保障</a></li>
+        </ul>
         </nav>
       </header>
     );

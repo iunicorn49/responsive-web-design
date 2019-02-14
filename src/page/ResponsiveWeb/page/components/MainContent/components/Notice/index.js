@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Notice extends Component {
   render() {
     return (
-      <section className="notice">
+      <section className="notice clearfix">
         <a href="#">
           <span>2015-12-21</span>元旦期间业务受理及值班公告
         </a>

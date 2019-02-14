@@ -1,8 +1,9 @@
-import React, { Component, Fragment } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Home from './page/Home'
-import Media from './page/Media'
-import ResponsiveWeb from './page/ResponsiveWeb'
+import React, { Component, Fragment } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./page/Home";
+import Media from "./page/Media";
+import ResponsiveWeb from "./page/ResponsiveWeb";
+import "normalize.css";
 
 class App extends Component {
   render() {

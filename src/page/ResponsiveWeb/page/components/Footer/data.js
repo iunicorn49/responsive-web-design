@@ -1,5 +1,5 @@
 export const lis = [
-  { name: "支付业务许可证", icon: "zfywxkz" },
+  { name: "支付业务许可证", icon: "zfywxk" },
   { name: "PCI认证", icon: "pcirk" },
   { name: "Visa验证", icon: "visayz" },
   { name: "VerSign加密服务", icon: "vsjmfw" },
